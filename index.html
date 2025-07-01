@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOMOSSA Evry Japhet - Développeur Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>GOMOSSA Evry Japhet</h1>
+    <p>Développeur Web Fullstack</p>
+    <a href="#contact" class="button">Me contacter</a>
+  </section>
+
+  <!-- À propos -->
+  <section class="bg-dark">
+    <h2>À propos</h2>
+    <p>Passionné par le code et les univers sombres, je conçois des expériences web modernes et performantes. Spécialisé en React, Node.js, et Tailwind CSS, je développe des interfaces efficaces et immersives.</p>
+  </section>
+
+  <!-- Compétences -->
+  <section>
+    <h2>Compétences</h2>
+    <div class="skills">
+      <div>HTML / CSS / Tailwind</div>
+      <div>JavaScript / TypeScript</div>
+      <div>React / Next.js</div>
+      <div>Node.js / Express</div>
+      <div>Git / GitHub</div>
+      <div>MongoDB / MySQL</div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="bg-dark">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Site vitrine</h3>
+        <p>Création de sites modernes, responsive et optimisés.</p>
+      </div>
+      <div class="service-card">
+        <h3>App web</h3>
+        <p>Développement d'applications web fullstack personnalisées.</p>
+      </div>
+      <div class="service-card">
+        <h3>Refonte & maintenance</h3>
+        <p>Amélioration de sites existants et support technique.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section>
+    <h2>Portfolio</h2>
+    <div class="carousel">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x200" alt="Site météo">
+        <h3>Site météo</h3>
+        <p>Application météo développée en HTML, CSS et JavaScript.</p>
+        <iframe width="100%" height="200" src="https://tokita03.github.io/MeteoWebsite/" title="Aperçu Site Météo"></iframe>
+        <a href="https://github.com/Tokita03/MeteoweBsite" class="button" target="_blank">Voir sur GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x200" alt="Chatbox PHP">
+        <h3>Chatbox</h3>
+        <p>Création d'une messagerie en temps réel avec HTML, CSS et PHP.</p>
+        <iframe width="100%" height="200" src="https://example.com/preview-chatbox" title="Aperçu Chatbox"></iframe>
+        <a href="https://github.com/tonprofil/chatbox-php" class="button" target="_blank">Voir sur GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x200" alt="MMORPG C#">
+        <h3>MMORPG (prototype)</h3>
+        <p>Développement d'un jeu multijoueur en C#, non finalisé mais fonctionnel.</p>
+        <img src="https://via.placeholder.com/400x200" alt="GIF aperçu MMORPG">
+        <a href="https://github.com/tonprofil/mmorpg-csharp" class="button" target="_blank">Voir sur GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x200" alt="Plateforme musicale">
+        <h3>Plateforme musicale (en cours)</h3>
+        <p>Projet en cours de développement pour écouter, uploader et organiser de la musique.</p>
+        <iframe width="100%" height="200" src="https://example.com/preview-musique" title="Aperçu plateforme musicale"></iframe>
+        <a href="https://github.com/tonprofil/plateforme-musicale" class="button" target="_blank">Voir sur GitHub</a>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top: 1rem;">
+      <a href="https://github.com/tonprofil" class="button" target="_blank">Voir tous les projets</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Tu as un projet ou une question ? Envoie-moi un message !</p>
+    <form action="mailto:tonadresse@mail.com" method="post" enctype="text/plain">
+      <label for="name">Nom</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="button">Envoyer</button>
+    </form>
+  </section>
+</body>
+</html>
